@@ -1,0 +1,17 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 40px;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0;
+    background-color: transparent;
+  }
+}

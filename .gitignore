@@ -1,0 +1,20 @@
+# Dependencies
+frontend/node_modules/
+backend/node_modules/
+
+# macOS
+.DS_Store
+
+# Build
+frontend/dist/
+
+# Coverage
+frontend/coverage/
+
+# Env
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
